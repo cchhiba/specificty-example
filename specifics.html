@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+  <style>
+    html {
+      font-family: 'Benne', serif;
+      font-size: 88px;
+      color: red;
+    }
+    h3 {
+      color: purple;
+    }
+    #title {
+      color: green;
+    }
+    #theHeader {
+      color: black;
+    }
+    .less-specific {
+      color: blue;
+    }
+    .title {
+      color: blue;
+    }
+    #yellow {
+      color: yellow !important;
+    }
+
+  </style>
+</head>
+<body>
+  <h3 class="title" id="title" style="color: magenta;">SPECIFICITY</h3>
+  <h3 id='theHeader'class='less-specific'>ID is more specific than Class</h3>
+  <h3 style='color:pink'; id='yellow'>inline is stronger than ID</h3>
+</body>
+</html>
